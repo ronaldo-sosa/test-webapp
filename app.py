@@ -36,7 +36,7 @@ st.title("Selector de múltiples opciones")
 opciones = ['Dan', 'Eman', 'Rich', 'Ron', 'Leon']
 
 # Crear el widget de selección múltiple
-opciones_seleccionadas = st.multiselect(
+opciones_seleccionadas = st.dropdown(
     'Selecciona una o más opciones:',  # Etiqueta del dropdown
     opciones,  # Lista de opciones disponibles
     default=['Dan', 'Eman', 'Rich', 'Ron', 'Leon']  # Opciones seleccionadas por defecto
