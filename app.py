@@ -39,7 +39,7 @@ opciones = ['Dan', 'Eman', 'Rich', 'Ron', 'Leon']
 opciones_seleccionadas = st.multiselect(
     'Selecciona una o más opciones:',  # Etiqueta del dropdown
     opciones,  # Lista de opciones disponibles
-    default=['Dan', 'Eman', 'Rich', 'Ron', 'Leon']  # Opciones seleccionadas por defecto
+
 )
 
 # Mostrar las opciones seleccionadas
