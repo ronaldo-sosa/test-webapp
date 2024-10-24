@@ -22,7 +22,7 @@ fecha_seleccionada = st.date_input(
     "Selecciona una fecha", 
     value=datetime.today(),  # Fecha predeterminada es la fecha actual
     min_value=datetime(2024, 10, 1),  # Fecha mínima
-    max_value=datetime(2025, 10, 20)  # Fecha máxima
+    max_value=datetime(2024, 10, 20)  # Fecha máxima
 )
 
 # Mostrar la fecha seleccionada
