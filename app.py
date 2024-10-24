@@ -33,13 +33,13 @@ st.write("Has seleccionado:", fecha_seleccionada)
 st.title("Selector de múltiples opciones")
 
 # Lista de opciones para el dropdown
-opciones = ['Dan', 'Eman', 'Rich', 'Ron', 'Léon']
+opciones = ['Dan', 'Eman', 'Rich', 'Ron', 'Leon']
 
 # Crear el widget de selección múltiple
 opciones_seleccionadas = st.multiselect(
     'Selecciona una o más opciones:',  # Etiqueta del dropdown
     opciones,  # Lista de opciones disponibles
-    default=['Opción 2', 'Opción 3']  # Opciones seleccionadas por defecto
+    default=['Dan', 'Eman', 'Rich', 'Ron', 'Leon']  # Opciones seleccionadas por defecto
 )
 
 # Mostrar las opciones seleccionadas
