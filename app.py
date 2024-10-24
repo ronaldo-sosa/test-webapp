@@ -27,3 +27,20 @@ fecha_seleccionada = st.date_input(
 
 # Mostrar la fecha seleccionada
 st.write("Has seleccionado:", fecha_seleccionada)
+
+
+# Título de la aplicación
+st.title("Selector de múltiples opciones")
+
+# Lista de opciones para el dropdown
+opciones = ['Dan', 'Eman', 'Rich', 'Ron', 'Léon']
+
+# Crear el widget de selección múltiple
+opciones_seleccionadas = st.multiselect(
+    'Selecciona una o más opciones:',  # Etiqueta del dropdown
+    opciones,  # Lista de opciones disponibles
+    default=['Opción 2', 'Opción 3']  # Opciones seleccionadas por defecto
+)
+
+# Mostrar las opciones seleccionadas
+st.write("Has seleccionado:", opciones_seleccionadas)
